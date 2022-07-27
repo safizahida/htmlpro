@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+ul li a:hover{
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+main{
+    border-top: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+.bg{
+    width: 650px;
+    height: 550;
+    margin: 40px;
+}
+
+.text{
+    width: 30%;
+}
+
+main h1{
+    font-size: 60px;
+
+  color: rgb(0, 255, 242);
+  text-transform: uppercase;
+}
+
+main h2{
+    font-size: 35px;
+    color: orangered;
+    margin: 20px 0;
+    text-transform: uppercase;
+    word-spacing: 10px;  
+}
+
+main p{
+    font-size: 20px;
+    font-weight: 800px;
+    margin: 30px 0;
+    line-height: 30px;
+}
+main button{
+    padding: 20px;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:red;
+    border-radius: 50px;
+}
+.signbtn{
+    padding: 20px;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:red;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
